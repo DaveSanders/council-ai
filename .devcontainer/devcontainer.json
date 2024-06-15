@@ -1,0 +1,32 @@
+{
+  "name": "Council AI",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "postCreateCommand": "echo 'Container created.'",
+  "forwardPorts": [8080],
+  "mounts": [],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "github.copilot",
+        "github.copilot-chat",
+        "pkief.material-icon-theme",
+        "johnpapa.vscode-peacock",
+        "esbenp.prettier-vscode",
+        "rvest.vs-code-prettier-eslint",
+        "mechatroner.rainbow-csv",
+        "alexcvzz.vscode-sqlite",
+        "bradlc.vscode-tailwindcss",
+        "ms-vscode.test-adapter-converter",
+        "hbenl.vscode-test-explorer",
+        "wayou.vscode-todo-highlight",
+        "vitest.explorer",
+        "kingwl.vscode-vitest-runner",
+        "vue.volar"
+      ],
+      "settings": {}
+    }
+  }
+}
